@@ -1,7 +1,17 @@
 .App {
   text-align: center;
 }
-
+table, tr, td, th {
+  border:1px solid black;
+  border-spacing: 0px;
+  margin:10px;
+  /* padding:10px; */
+  /* border-collapse:collapse; */
+}
+td{
+  padding:10px;
+  min-width: 150px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
